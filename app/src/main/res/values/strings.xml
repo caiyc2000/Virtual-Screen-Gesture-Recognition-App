@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PreviewCamera</string>
+    <string name="takephoto">takephoto</string>
+    <string name="btn1" />
+    <string name="btn2" />
+    <string name="btn3" />
+    <string name="button1">button1</string>
+    <string name="button3">button3</string>
+    <string name="button2">button2</string>
+    <string name="button6">button6</string>
+    <string name="button5">button5</string>
+    <string name="button4">button4</string>
+</resources>
