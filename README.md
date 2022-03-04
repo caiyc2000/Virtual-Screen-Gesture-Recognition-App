@@ -7,8 +7,12 @@ How to use this app:
 2. Type 'adb shell setprop log.tag.MainActivity VERBOSE' in the terminal and run again.
 3. Launch the app. After entering the app, press the "start virtual screen" button to start the service.
 4. A window that your finger can drag will appear. Inside it is the user in the front camera, convenient for users to observe themselves. There will also be a small red dot, which represents the location of the index fingertip of your pointing hand on the screen. Think of it as the mouse displayed on the computer screen. 
-5. Make a holding gesture* to the camera with one hand, then use another hand to make a pointing gesture. You would find the red dot will move with your pointing fingertip.![image](https://github.com/caiyc2000/Virtual-Screen-Gesture-Recognition-App/blob/master/demo_start.gif)
+5. Make a holding gesture* to the camera with one hand, then use another hand to make a pointing gesture. You would find the red dot will move with your pointing fingertip.
+
+![image](https://github.com/caiyc2000/Virtual-Screen-Gesture-Recognition-App/blob/master/demo_start.gif)
+
 6. Do whatever you want to do. Below is the demo of 'clicking' the calendar icon remotely.
+
 ![image](https://github.com/caiyc2000/Virtual-Screen-Gesture-Recognition-App/blob/master/demo_click.gif)
 
 
