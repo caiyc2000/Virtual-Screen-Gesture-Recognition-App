@@ -19,15 +19,19 @@ How to use this app:
 *Holding gesture: Use the thumb and index finger to form a rectangle, pretending to hold a smartphone in the air.
 *Pointing gesture: Straighten the index finger and bend the other fingers, like a "1" gesture.
 
+
 There are three main steps:
 1. First, we will recognize the holding gesture, which means entering the remote control mode.
 2. After entering the remote control mode, recognize the gesture of the other hand for a "click "and track its movement.
 3. If a "click" is recognized, a touch screen event will be sent to the system. 
 
+
 How to define a "click":
 The premise is that the hand is a pointing gesture. 
 Within a certain period, the tip of the index finger is closer to the mobile phone than the wrist and then becomes farther away.
 The relative depth info comes from the z coordinate of hand results in Mediapipe Hands.
+
+
 
 Main contributions of this project:
 
@@ -60,6 +64,7 @@ And this tiny red dot must be on the surface of all applications, so I have to r
 5. Inject events into another app: Obtain system permission
 
 To simulate the touch screen event in other applications, you must obtain system permissions. I implemented this function in the code using the command line.
+
 
 
 Personalized adjustments that can be made:
